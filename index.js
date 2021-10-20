@@ -4,7 +4,7 @@ const cors = require("cors");
 const port = process.env.PORT || 3001
 const mongodb = require('mongodb')
 const mongoclient = mongodb.MongoClient;
-const url = 'mongodb://localhost:27017';
+const url = 'mongodb+srv://ganesh:<password>@cluster0.lqhki.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 app.use(cors({
     origin: "*"
 }))
